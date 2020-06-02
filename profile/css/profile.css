@@ -1,0 +1,321 @@
+.menuSetting{
+    width: 20%; 
+    position: relative;
+    background-color: #EDECEC;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+.SettingsProfileHeader{
+    color: #494949; 
+    font-family: Roboto;
+    font-weight: bold; 
+    font-size: 14px; 
+    display:flex; 
+    align-items: center;
+}
+.SettingsProfileElement div, .SettingsProfileHeaderLeftLine{
+    width:5px; 
+    height: 30px; 
+    background-color:#2C71C1; 
+    margin-right: 10px;
+}
+.SettingsProfileHeaderLeftLine{
+    background-color:#494949; 
+}
+.SettingsProfileElement{ 
+    display:flex; 
+    align-items:center;
+    cursor: pointer;
+    padding-right: 5px;
+}
+.SettingsProfileElement:hover, .SettingsProfileElementSelectedItem{
+    color: #F6F9F9; 
+    background-color: #2C71C1;
+}
+.SettingsProfileElement img{
+    margin-right: 5px;
+}
+.fontNameInputReg{
+	font-family: 'Roboto'; 
+	color: #494949; 
+	font-size: 15px;
+	font-weight: bold;
+}
+.helpIcon{
+	margin-left: 10px;
+}
+.help:hover:after{
+	content: attr(data-title);
+	width: 250px;
+	position: absolute;
+	z-index: 5px;
+	margin: 10px 10px;
+	background-color: #2C71C1;
+	border: 1px solid #2564AC;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 13px;
+	color: #F6F9F9;
+	padding: 5px 5px;
+}
+.inputBlockReg{
+	display: flex;
+	align-items: center;
+}
+.mainMenuProfileElement{
+    width:15%;
+}
+.mainMenuProfileElementCircle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%; 
+    padding: 20px 20px;
+    border-radius: 100px; 
+    border: 2px solid #494949;
+}
+.mainMenuProfileElementCircle img{
+    width: 100%;
+}
+.zagolovokLK{
+    background-color:#2C71C1;
+    width:100%;
+    height: 40px;
+    display:flex;
+    align-items:center;
+    text-indent: 25px;
+}
+.mainMenuProfileElementCircle:before{
+	content: "";
+	padding-top: 100%;
+}
+.mainMenuProfileElementText{
+    display: flex;
+    font-weight:bold; 
+    justify-content: center;
+    text-align: center;
+}
+.blockErrorReg{
+	width: 400px;
+	color: #A80000;
+	font-family: 'Roboto';
+	font-size: 14px;
+}
+.fullInputBlockReg{
+	width: 650px;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainMenuProfileElement:hover > .mainMenuProfileElementCircle{
+    border: 2px solid #2C71C1;
+    animation-name: mainMenuProfileElementAnim;
+    animation-duration: 1s;
+    cursor: pointer;
+}
+.mainMenuProfileElement:hover > .mainMenuProfileElementText{
+    color: #2C71C1;
+}
+.mainContentProfileUp{
+    width:100%;
+    align-items: center;
+    min-height: 500px;
+    display: flex; 
+    justify-content:space-around; 
+    box-sizing:border-box; 
+}
+.mainContentProfileDown{
+    margin-bottom: 100px;
+}
+.mainDiv{
+    width:100%; 
+    min-height:500px;
+    background-color:#F2F2F2;
+}
+.nextContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 500px;
+}
+.hiddenClass{
+    display: none;
+    visibility: hidden;
+}
+.disFlex{
+    display: flex;
+}
+.genderSelect{
+	box-sizing:border-box; 
+	padding: 2px 2px;
+}
+.genderSelectRight, .genderSelectLeft{
+	background-color:#EDECEC; 
+	height:100%;
+	width:50%; 
+	border-radius: 0 4px 4px 0;  
+	color:#2564AC; 
+	font-family: 'Roboto'; 
+	font-weight: bold; 
+	font-size: 18px; 
+	display: flex; 
+	align-items: center; 
+    justify-content: center;
+    cursor: pointer;
+}
+.genderSelectLeft{
+	background-color:#EDECEC; 
+	border-radius: 4px 0 0 4px;
+	margin-right: 4px;   
+}
+#Male:checked ~ .genderSelectLeft, #Female:checked ~ .genderSelectRight{
+	color:#EDECEC;
+	background-color:#2564AC;
+}
+.photoUpdateText{
+    width: 20%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.buttonSaveProfileAvatar, .buttonSaveProfileChange, .buttonChangePassword{
+    width: 100%;
+	height: 35px;
+	background: #E7E7E7;
+	box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    outline:none;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonSaveProfileChange{
+    width: 40%;
+}
+.buttonChangePassword{
+    width: 30%;
+}
+.avatarImg{
+    margin-left: 10px;
+    width:15%;
+}
+.avatarImg img{
+    width: 100%;
+}
+.newContent{
+    width: 80%; 
+    padding: 15px 20px; 
+    box-sizing:border-box;
+}
+@keyframes menuLeftAnim{
+    from{
+        left:-20%;
+    }
+    to{
+        left:0%;
+    }
+}
+@keyframes mainMenuProfileElementAnim{
+    from{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(15deg);
+    }
+    75%{
+        transform: rotate(-15deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+@keyframes mainMenuProfileElementChange{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(0);
+    }
+}
+.selectZapis{
+    display: flex;
+    background: #C4C4C4;
+}
+.selectZapis label{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+#zapisiRadio:checked ~ .zapRad, #historyRadio:checked ~ .hisRad, #doctorRadio:checked ~ .zapisDoctorOption{
+	color:#EDECEC;
+	background-color:#2564AC;
+}
+.zapisDiv{
+    box-sizing: border-box; 
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+    background: #DADADB; 
+    margin-bottom: 10px; 
+    width: 100%;
+    padding: 10px; 
+    cursor: pointer;
+}
+.zapisDivFlex{
+    align-items: center;  
+    display: flex; 
+    justify-content: space-between;
+}
+.posolaRecept{
+    width: 98%;
+    height: 2px;
+    background: #2C71C1;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.receptText{
+    font-family: 'Roboto';
+    font-weight: normal;
+    text-align: justify;
+    color: #494949;
+    margin-top: 5px;
+}
+.zapisDoctorOption{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #C4C4C4;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.zapisDivDoctor{
+    box-sizing: border-box; 
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+    background: #DADADB; 
+    margin-bottom: 10px; 
+    width: 100%;
+    padding: 10px; 
+}
+.recept textarea{
+    width: 100%;
+    resize: none;
+    margin-top: 10px;
+    height: 70px;
+}
+.acceptRecept{
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

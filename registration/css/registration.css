@@ -1,0 +1,148 @@
+body{
+	background: linear-gradient(180deg, #2A6EBC 0%, rgba(44, 113, 193, 0.53) 100%) no-repeat;
+	display: flex;
+}
+.headReg{
+	display: flex;
+}
+.contentRegistration{
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 670px;
+	background-color: #F2F2F2;
+	padding-left: 20px;
+}
+.fullInputBlockReg{
+	width: 650px;
+	display: flex;
+	justify-content: space-between;
+}
+.inputBlockRegistration{
+	background: #C4C4C4;
+	display: flex;
+	width: 197px;
+	height: 30px;
+	border-radius: 4px;
+	margin-top: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.inputInputBlockReg{
+	height: 26px;
+	width: 165px;
+	margin-top: 2px;
+	background: #EDECEC;
+	border-radius: 0px 3px 3px 0px;
+	border: none;
+	font-size: 15px;
+	font-family: 'Roboto';
+	padding-left: 5px;
+}
+.iconInputBlockReg{
+	
+	width: 26px;
+	height: 26px;
+	background: #DADADB;
+	margin: 2px 2px;
+	border-radius: 3px 0px 0px 3px;
+	display: flex;
+    justify-content: center;
+}
+.blockErrorReg{
+	width: 400px;
+	color: #A80000;
+	font-family: 'Roboto';
+	font-size: 14px;
+}
+.FormRegistrationName{
+	font-family: 'Roboto';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	color: #494949;
+}
+.registrationButton{
+	width: 170px;
+	height: 40px;
+	background: #E7E7E7;
+	box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: 'Roboto';
+	color: #494949;
+	outline:none;
+	margin-top: 10px;
+}
+.fontNameInputReg{
+	font-family: 'Roboto'; 
+	color: #494949; 
+	font-size: 15px;
+	font-weight: bold;
+}
+.inputBlockReg{
+	display: flex;
+	align-items: center;
+}
+.helpIcon{
+	margin-left: 10px;
+}
+.help:hover:after{
+	content: attr(data-title);
+	width: 250px;
+	position: absolute;
+	z-index: 5px;
+	margin: 10px 10px;
+	background-color: #2C71C1;
+	border: 1px solid #2564AC;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 11px;
+	line-height: 13px;
+	color: #F6F9F9;
+	padding: 5px 5px;
+}
+.regPolitikFont, .fontPolitikUrl{
+	font-family: 'Roboto'; 
+	color: #494949; 
+	font-size: 18px;
+	font-weight: bold;
+}
+.fontPolitikUrl{
+	color: #076C6C; 
+}
+.errorCheckbox{
+	height: 15px;
+	margin-top: 10px;
+	color: #A80000;
+	font-family: 'Roboto';
+	font-size: 14px;
+}
+.genderSelect{
+	box-sizing:border-box; 
+	padding: 2px 2px;
+}
+.genderSelectRight, .genderSelectLeft{
+	background-color:#EDECEC; 
+	height:100%;
+	width:50%; 
+	border-radius: 0 4px 4px 0;  
+	color:#2564AC; 
+	font-family: 'Roboto'; 
+	font-weight: bold; 
+	font-size: 18px; 
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
+.genderSelectLeft{
+	background-color:#EDECEC; 
+	border-radius: 4px 0 0 4px;
+	margin-right: 4px;   
+}
+#Male:checked ~ .genderSelectLeft, #Female:checked ~ .genderSelectRight{
+	color:#EDECEC;
+	background-color:#2564AC;
+}

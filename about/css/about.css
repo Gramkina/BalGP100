@@ -1,0 +1,221 @@
+.mainBlockDiv, .mainBlockDivUser{
+    margin-top: 25px;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    max-width: 220px;
+    margin-left: 20px;
+}
+#aboutContent{
+    text-align: justify;
+    font-weight: normal;
+    text-indent: 20px;
+}
+.mainBlockDiv{
+    cursor: pointer;
+}
+.mainBlockDivUserBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rankDoctor{
+    display: flex;
+    white-space: pre-wrap;
+}
+.cabinetNumber input{
+    width: 30px;
+    margin-left: 5px;
+}
+.cabinetNumber{
+    display: flex;
+}
+.cabinet{
+    display: flex;
+}
+.mainBlockDiv{
+    border-radius: 10px;
+    border: 2px solid #2C71C1;
+    justify-content: center;
+}
+.addUserAvatar{
+    width:100%;
+    max-width: 200px;
+}
+.buttonZapis a{
+    color: inherit;
+    display: block;
+}
+.buttonZapis{
+    width: 90%;
+    text-align: center;
+    padding: 6px 0;
+    border-radius: 20px;
+    border: 2px solid #2C71C1;
+    transition: 0.3s;
+}
+.infoAddUser{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addUserContentTrue{
+    display: flex;
+    margin-top: 20px;
+}
+.addUserZaplonInfo{
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+.buttonZapis:hover{
+    color: #E7E7E7;
+    background: #2C71C1;
+    transition: 0.3s;
+}
+.mainBlockDivUser a{
+    text-align: center;
+}
+textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+.aboutDoctorDivInfo{
+    margin-top: 15px;
+    display: flex;
+}
+.infoDoctorAboutDoctor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-left: 10px;
+}
+.aboutDoctorDivInfo img{
+    width: 40%;
+    max-width: 300px;
+}
+.mainBlockDiv img, .mainBlockDivUser a img{
+    width: 95%;
+    max-width: 200px;
+}
+.mainBlockDiv img{
+    width: 50%;
+}
+.content{
+    width: 70%;
+    margin: auto;
+    max-width: 1100px;
+    margin-top: 15px;
+}
+.addDoctorContent{
+    outline: 1px solid #2C71C1;
+    margin-top: 50px;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    background: #F2F2F2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.infoAdmin{
+    display: flex;
+    flex-wrap: wrap;
+}
+.buttonFindUser{
+    width: 7%;
+	height: 30px;
+    background: #E7E7E7;
+    border: 1px solid #494949;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    outline:none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.findUser{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.invisibleObject{
+    visibility: hidden;
+    display: none;
+}
+.telephone{
+    width: 100%;
+    margin-top: 50px;
+}
+.telephone table{
+    width: inherit;
+    border-spacing: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.telephone table tr td{
+    width: 33%;
+    padding: 5px 5px;
+}
+.deleteDoctorsTableAdmin{
+    width: 100%;
+    margin-top: 50px;
+}
+.deleteDoctorsTableAdmin table{
+    width: inherit;
+    border-spacing: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.deleteDoctorsTableAdmin table tr td{
+    width: 50%;
+    padding: 5px 5px;
+}
+.raspisanieDiv{
+    background-color: #F2F2F2;
+    border: 1px solid #2C71C1;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+.raspisanieInfoDoctor{
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.raspisanieInfoRaspisanie{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.raspisanieInfoRaspisanie div{
+    text-align: center;
+}
+.saveChangeTime{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 0px 20px 0px 20px;
+}
+.raspisanieDay{
+    margin-bottom: 5px;
+}
+.findRaspisanieDiv{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.findRaspisanieText{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.krestikDelete{
+    cursor: pointer;
+}

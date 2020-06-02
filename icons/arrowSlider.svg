@@ -1,0 +1,14 @@
+<svg width="119" height="119" viewBox="0 0 119 119" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#4D639E">
+<rect x="2.5" y="2.5" width="114" height="114" rx="57" stroke="inherit" stroke-width="5"/>
+<path d="M71 32L43 59.5L71 87" stroke="inherit" stroke-width="7"/>
+<style>
+	svg{
+		transition: 0.3s;
+		cursor: pointer;
+		opacity: 0.3;
+	}
+	svg:hover{
+		opacity: 0.8;
+	}
+</style>
+</svg>

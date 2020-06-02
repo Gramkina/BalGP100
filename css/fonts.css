@@ -1,0 +1,103 @@
+@font-face{
+	font-family: 'Russo One';
+	src: url('/fonts/RussoOne-Regular.ttf');
+}
+
+@font-face{
+	font-family: 'Roboto';
+	src: url('/fonts/Roboto-Regular.ttf');
+}
+.smallTextBlack, .mediumTextBlack, .largeTextBlack, .veryLargeTextBlack{
+    font-family: Roboto;
+    font-weight: bold; 
+    font-size: 12px;
+    color: #494949;
+}
+.mediumTextBlack{
+    font-size: 15px;
+}
+.largeTextBlack{
+    font-size: 19px;
+}
+.veryLargeTextBlack{
+    font-size: 35px;
+}
+.smallTextGreen, .mediumTextGreen, .largeTextGreen{
+	font-family: Roboto;
+    font-weight: bold; 
+    font-size: 12px;
+    color: #147018;
+}
+.mediumTextGreen{
+    font-size: 15px;
+}
+.largeTextGreen{
+    font-size: 19px;
+}
+.smallTextRed, .mediumTextRed, .largeTextRed{
+	font-family: Roboto;
+    font-weight: bold; 
+    font-size: 12px;
+    color: #A80000;
+}
+.mediumTextRed{
+    font-size: 15px;
+}
+.largeTextRed{
+    font-size: 19px;
+}
+.smallTextBlue, .mediumTextBlue, .largeTextBlue{
+	font-family: Roboto;
+    font-weight: bold; 
+    font-size: 12px;
+    color: #2C71C1;
+}
+.mediumTextBlue{
+    font-size: 15px;
+}
+.largeTextBlue{
+    font-size: 19px;
+}
+.smallTextWhite, .mediumTextWhite, .largeTextWhite, .veryLargeTextWhite{
+	font-family: Roboto;
+    font-weight: bold; 
+    font-size: 12px;
+    color: #F6F9F9;
+}
+.mediumTextWhite{
+    font-size: 15px;
+}
+.largeTextWhite{
+    font-size: 19px;
+}
+.veryLargeTextWhite{
+    font-size: 35px;
+}
+@media screen and (max-width: 1100px) and (min-width: 700px){
+    .smallTextBlack, .smallTextWhite, .smallTextGreen, .smallTextBlue, .smallTextRed{
+        font-size: 7px;
+    }
+    .mediumTextBlack, .mediumTextWhite, .mediumTextGreen, .mediumTextBlue, .mediumTextRed{
+        font-size: 10px;
+    }
+    .largeTextBlack, .largeTextWhite, .largeTextGreen, .largeTextBlue, .largeTextRed{
+        font-size: 19px;
+    }
+    .veryLargeTextBlack, .veryLargeTextWhite, .veryLargeTextGreen, .veryLargeTextBlue, .veryLargeTextRed{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 700px){
+    .smallTextBlack, .smallTextWhite, .smallTextGreen, .smallTextBlue, .smallTextRed{
+        font-size: 4px;
+    }
+    .mediumTextBlack, .mediumTextWhite, .mediumTextGreen, .mediumTextBlue, .mediumTextRed{
+        font-size: 7px;
+    }
+    .largeTextBlack, .largeTextWhite, .largeTextGreen, .largeTextBlue, .largeTextRed{
+        font-size: 10px;
+    }
+    .veryLargeTextBlack, .veryLargeTextWhite, .veryLargeTextGreen, .veryLargeTextBlue, .veryLargeTextRed{
+        font-size: 15px;
+    }
+}

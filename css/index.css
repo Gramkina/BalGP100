@@ -1,0 +1,154 @@
+.content{
+	max-width: 1100px;
+	width: 70%;
+	margin: auto;
+	margin-top: 10px;
+}
+.newsBlock{
+    box-sizing: border-box;
+    margin-top: 10px;
+    min-width: 200px;
+    width: 21%;
+    border: 1px solid #49494966;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+}
+.newsBlock img{
+    width: 100%;
+}
+.newsBlock div{
+    box-sizing: border-box;
+    padding: 10px;
+}
+.zagolovokNews{
+    display: flex;
+    justify-content: left;
+}
+.previewNews{
+    word-wrap: break-word;
+}
+.dateNews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contentBlockNews{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.moreNews{
+	padding: 5px 10px;
+	border: 1px solid #2C71C1;
+	width: 15%;
+	margin-top: 20px;
+	text-align: center;
+	transition: 0.5s;
+}
+.moreNews:hover{
+	background: #2C71C1;
+	color: #FAFAFA;
+	transition: 0.5s;
+}
+.moreNews a{
+	display: block;
+	color: inherit;
+}
+.blockNews{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.slider{
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.slider div{
+	width: 4%;
+}
+.slider div svg{
+	width: 100%;
+}
+.right svg{
+	transform: scaleX(-1);
+}
+.slider img{
+	width: 90%;
+}
+.sliderChange{
+	opacity: 0;
+	transition: 0.5s;
+}
+.sliderChangeEnding{
+	opacity: 1;
+	transition: 0.5s;
+}
+.infoTimeIndex{
+	display: flex;
+	width: 100%;
+	margin-bottom: 15px;
+}
+.timeWork{
+	width: 50%;
+	background: #4168F0;
+	box-sizing: border-box;
+	padding: 25px;
+}
+.zapis{
+	width: 50%;
+	background: #4153F0;
+	box-sizing: border-box;
+	padding: 25px;
+}
+.timeWorkText{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.lineTimeWork{
+	width: 100%;
+	background: #F6F9F9;
+	height: 2px;
+	margin-bottom: 25px;
+}
+#zapisTextIndex{
+	margin-top: 20px;
+	font-weight: normal;
+}
+.zapisBottomIndex{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+.zapisIndexPod{
+	padding: 7px;
+	width: 35%;
+	text-align: center;
+	border-radius: 20px;
+	border: 1px solid #F0F0F0;
+	transition: 0.3s;
+}
+.zapisIndexPod:hover{
+	background: #F0F0F0;
+	color: #171EC2;
+	border: 1px solid #F0F0F0;
+	transition: 0.3s;
+}
+#indexAbout{
+	font-weight: normal;
+	text-align: justify;
+	display: flex;
+	margin-bottom: 20px;
+}
+#indexAbout div ul li{
+	margin-top: 10px;
+}
+#indexAbout img{
+	width: 40%;
+	margin-right: 15px;
+}
